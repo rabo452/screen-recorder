@@ -21,7 +21,7 @@ class ProgramConfig:
     video = True
 
     # read only values
-    _VIDEO_FPS = 60
+    _VIDEO_FPS = 30
     _STOP_PROGRAM_KEY = Key.f8
     _BASE_PATH = os.getcwd()
     _VIDEO_FILENAME = "video.avi"
