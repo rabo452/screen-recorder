@@ -18,7 +18,10 @@ soundfile = "*"
 pynput = "*"
 loguru = "*"
 moviepy = "*"
+<<<<<<< HEAD
 opencv-python = "*"
+=======
+>>>>>>> c4bf41a377bb3ae374b04b89533390008a9f4b6c
 
 [dev-packages]
 

@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 import os
 import time
 from multiprocessing import Process, Queue, Pipe
@@ -173,3 +174,4 @@ if __name__ == "__main__":
     logger.remove()
     logger.add("log/info.log", level=ProgramConfig.LOG_LEVEL)
     main()
+
