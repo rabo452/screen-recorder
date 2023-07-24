@@ -1,0 +1,2 @@
+class NoMicrophoneException(Exception):
+    pass

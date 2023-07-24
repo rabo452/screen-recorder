@@ -1,0 +1,426 @@
+2023-07-24 00:56:18.306 | INFO     | video:__init__:78 - created video writer
+2023-07-24 00:56:18.306 | INFO     | audio:__init__:144 - created audio writer
+2023-07-24 00:56:39.207 | INFO     | __main__:keyboard_on_press:29 - record is stopped
+2023-07-24 00:56:39.212 | INFO     | __main__:audio_thread:105 - stop audio process!
+2023-07-24 00:56:39.229 | INFO     | audio:close:151 - closed audio writer
+2023-07-24 00:56:39.235 | INFO     | __main__:video_thread:74 - stop video process!
+2023-07-24 00:56:39.275 | INFO     | __main__:audio_thread:115 - audio process terminated!
+2023-07-24 00:56:39.320 | INFO     | __main__:keyboard_on_press:38 - start combining audio and video
+2023-07-24 01:04:31.695 | INFO     | video:__init__:78 - created video writer
+2023-07-24 01:04:31.696 | INFO     | audio:__init__:144 - created audio writer
+2023-07-24 01:04:47.311 | INFO     | __main__:keyboard_on_press:30 - record is stopped
+2023-07-24 01:04:47.319 | INFO     | __main__:audio_thread:110 - stop audio process!
+2023-07-24 01:04:47.336 | INFO     | audio:close:151 - closed audio writer
+2023-07-24 01:04:47.342 | INFO     | __main__:video_thread:79 - stop video process!
+2023-07-24 01:04:47.390 | INFO     | __main__:audio_thread:120 - audio process terminated!
+2023-07-24 01:04:47.413 | INFO     | __main__:keyboard_on_press:39 - start combining audio and video
+2023-07-24 01:07:47.968 | INFO     | video:__init__:78 - created video writer
+2023-07-24 01:07:47.969 | INFO     | audio:__init__:144 - created audio writer
+2023-07-24 01:07:53.039 | INFO     | __main__:keyboard_on_press:30 - record is stopped
+2023-07-24 01:07:53.042 | INFO     | __main__:audio_thread:111 - stop audio process!
+2023-07-24 01:07:53.043 | INFO     | __main__:video_thread:80 - stop video process!
+2023-07-24 01:07:53.059 | INFO     | audio:close:151 - closed audio writer
+2023-07-24 01:07:53.107 | INFO     | __main__:audio_thread:121 - audio process terminated!
+2023-07-24 01:07:53.150 | INFO     | __main__:keyboard_on_press:39 - start combining audio and video
+2023-07-24 01:12:47.061 | INFO     | video:__init__:78 - created video writer
+2023-07-24 01:12:47.061 | INFO     | audio:__init__:144 - created audio writer
+2023-07-24 01:12:56.295 | INFO     | __main__:keyboard_on_press:42 - record is stopped
+2023-07-24 01:12:56.304 | INFO     | __main__:audio_thread:119 - stop audio process!
+2023-07-24 01:12:56.310 | INFO     | __main__:video_thread:88 - stop video process!
+2023-07-24 01:12:56.318 | INFO     | audio:close:151 - closed audio writer
+2023-07-24 01:12:56.397 | INFO     | __main__:audio_thread:129 - audio process terminated!
+2023-07-24 01:12:56.409 | INFO     | __main__:keyboard_on_press:51 - start combining audio and video
+2023-07-24 01:22:31.005 | INFO     | video:__init__:78 - created video writer
+2023-07-24 01:22:31.006 | INFO     | audio:__init__:144 - created audio writer
+2023-07-24 01:22:37.407 | INFO     | __main__:keyboard_on_press:46 - record is stopped
+2023-07-24 01:22:37.418 | INFO     | __main__:audio_thread:123 - stop audio process!
+2023-07-24 01:22:37.424 | INFO     | __main__:video_thread:92 - stop video process!
+2023-07-24 01:22:37.434 | INFO     | audio:close:151 - closed audio writer
+2023-07-24 01:22:37.525 | INFO     | __main__:audio_thread:133 - audio process terminated!
+2023-07-24 01:22:37.620 | INFO     | __main__:keyboard_on_press:55 - start combining audio and video
+2023-07-24 01:22:37.620 | INFO     | video:__init__:78 - created video writer
+2023-07-24 01:23:47.565 | INFO     | video:__init__:78 - created video writer
+2023-07-24 01:23:47.566 | INFO     | audio:__init__:144 - created audio writer
+2023-07-24 01:23:55.247 | INFO     | __main__:keyboard_on_press:49 - record is stopped
+2023-07-24 01:23:55.247 | INFO     | __main__:audio_thread:126 - stop audio process!
+2023-07-24 01:23:55.256 | INFO     | __main__:video_thread:95 - stop video process!
+2023-07-24 01:23:55.264 | INFO     | audio:close:151 - closed audio writer
+2023-07-24 01:23:55.362 | INFO     | __main__:audio_thread:136 - audio process terminated!
+2023-07-24 01:23:55.463 | INFO     | __main__:keyboard_on_press:58 - start combining audio and video
+2023-07-24 01:23:55.463 | INFO     | video:__init__:78 - created video writer
+2023-07-24 01:25:31.138 | INFO     | video:__init__:78 - created video writer
+2023-07-24 01:25:31.138 | INFO     | audio:__init__:144 - created audio writer
+2023-07-24 01:25:47.903 | INFO     | __main__:keyboard_on_press:49 - record is stopped
+2023-07-24 01:25:47.903 | INFO     | __main__:audio_thread:126 - stop audio process!
+2023-07-24 01:25:47.919 | INFO     | audio:close:151 - closed audio writer
+2023-07-24 01:25:47.934 | INFO     | __main__:video_thread:95 - stop video process!
+2023-07-24 01:25:48.047 | INFO     | __main__:audio_thread:136 - audio process terminated!
+2023-07-24 01:25:48.121 | INFO     | __main__:keyboard_on_press:58 - start combining audio and video
+2023-07-24 01:25:48.121 | INFO     | video:__init__:78 - created video writer
+2023-07-24 01:26:55.779 | INFO     | audio:__init__:144 - created audio writer
+2023-07-24 01:26:55.779 | INFO     | video:__init__:78 - created video writer
+2023-07-24 01:27:15.351 | INFO     | __main__:keyboard_on_press:49 - record is stopped
+2023-07-24 01:27:15.359 | INFO     | __main__:audio_thread:126 - stop audio process!
+2023-07-24 01:27:15.376 | INFO     | audio:close:151 - closed audio writer
+2023-07-24 01:27:15.378 | INFO     | __main__:video_thread:95 - stop video process!
+2023-07-24 01:27:15.536 | INFO     | __main__:audio_thread:136 - audio process terminated!
+2023-07-24 01:27:15.564 | INFO     | __main__:keyboard_on_press:58 - start combining audio and video
+2023-07-24 01:28:45.635 | INFO     | video:__init__:79 - created video writer
+2023-07-24 01:28:45.635 | INFO     | audio:__init__:144 - created audio writer
+2023-07-24 01:29:23.953 | INFO     | __main__:keyboard_on_press:49 - record is stopped
+2023-07-24 01:29:23.959 | INFO     | __main__:video_thread:95 - stop video process!
+2023-07-24 01:29:23.967 | INFO     | __main__:audio_thread:126 - stop audio process!
+2023-07-24 01:29:23.982 | INFO     | audio:close:151 - closed audio writer
+2023-07-24 01:29:24.023 | INFO     | __main__:audio_thread:136 - audio process terminated!
+2023-07-24 01:29:24.058 | INFO     | __main__:keyboard_on_press:58 - start combining audio and video
+2023-07-24 01:29:51.931 | INFO     | audio:__init__:144 - created audio writer
+2023-07-24 01:29:51.932 | INFO     | video:__init__:79 - created video writer
+2023-07-24 01:30:08.679 | INFO     | __main__:keyboard_on_press:49 - record is stopped
+2023-07-24 01:30:08.692 | INFO     | __main__:audio_thread:126 - stop audio process!
+2023-07-24 01:30:08.708 | INFO     | audio:close:151 - closed audio writer
+2023-07-24 01:30:08.712 | INFO     | __main__:video_thread:95 - stop video process!
+2023-07-24 01:30:08.787 | INFO     | __main__:audio_thread:136 - audio process terminated!
+2023-07-24 01:30:08.894 | INFO     | __main__:keyboard_on_press:58 - start combining audio and video
+2023-07-24 01:31:22.139 | INFO     | audio:__init__:144 - created audio writer
+2023-07-24 01:31:22.140 | INFO     | video:__init__:79 - created video writer
+2023-07-24 01:31:35.414 | INFO     | __main__:keyboard_on_press:49 - record is stopped
+2023-07-24 01:31:35.418 | INFO     | __main__:audio_thread:121 - stop audio process!
+2023-07-24 01:31:35.429 | INFO     | __main__:video_thread:95 - stop video process!
+2023-07-24 01:31:35.434 | INFO     | audio:close:151 - closed audio writer
+2023-07-24 01:31:35.478 | INFO     | __main__:audio_thread:131 - audio process terminated!
+2023-07-24 01:31:35.526 | INFO     | __main__:keyboard_on_press:58 - start combining audio and video
+2023-07-24 01:32:11.308 | INFO     | video:__init__:79 - created video writer
+2023-07-24 01:32:11.308 | INFO     | audio:__init__:144 - created audio writer
+2023-07-24 01:33:16.487 | INFO     | __main__:keyboard_on_press:49 - record is stopped
+2023-07-24 01:33:16.491 | INFO     | __main__:video_thread:95 - stop video process!
+2023-07-24 01:33:16.497 | INFO     | __main__:audio_thread:126 - stop audio process!
+2023-07-24 01:33:16.512 | INFO     | audio:close:151 - closed audio writer
+2023-07-24 01:33:16.541 | INFO     | __main__:audio_thread:136 - audio process terminated!
+2023-07-24 01:33:16.588 | INFO     | __main__:keyboard_on_press:58 - start combining audio and video
+2023-07-24 01:34:41.398 | INFO     | video:__init__:79 - created video writer
+2023-07-24 01:34:41.398 | INFO     | audio:__init__:144 - created audio writer
+2023-07-24 01:35:03.342 | INFO     | __main__:keyboard_on_press:49 - record is stopped
+2023-07-24 01:35:03.357 | INFO     | __main__:audio_thread:126 - stop audio process!
+2023-07-24 01:35:03.373 | INFO     | audio:close:151 - closed audio writer
+2023-07-24 01:35:03.374 | INFO     | __main__:video_thread:95 - stop video process!
+2023-07-24 01:35:03.491 | INFO     | __main__:audio_thread:136 - audio process terminated!
+2023-07-24 01:35:03.561 | INFO     | __main__:keyboard_on_press:58 - start combining audio and video
+2023-07-24 01:36:10.566 | INFO     | video:__init__:79 - created video writer
+2023-07-24 01:36:10.567 | INFO     | audio:__init__:144 - created audio writer
+2023-07-24 01:36:44.719 | INFO     | __main__:keyboard_on_press:49 - record is stopped
+2023-07-24 01:36:44.729 | INFO     | __main__:audio_thread:126 - stop audio process!
+2023-07-24 01:36:44.741 | INFO     | __main__:video_thread:95 - stop video process!
+2023-07-24 01:36:44.746 | INFO     | audio:close:151 - closed audio writer
+2023-07-24 01:36:44.803 | INFO     | __main__:audio_thread:136 - audio process terminated!
+2023-07-24 01:36:44.824 | INFO     | __main__:keyboard_on_press:58 - start combining audio and video
+2023-07-24 01:36:44.824 | INFO     | video:__init__:79 - created video writer
+2023-07-24 01:38:36.093 | INFO     | audio:__init__:144 - created audio writer
+2023-07-24 01:38:36.093 | INFO     | video:__init__:79 - created video writer
+2023-07-24 01:38:37.831 | INFO     | __main__:keyboard_on_press:49 - record is stopped
+2023-07-24 01:38:37.858 | INFO     | __main__:video_thread:95 - stop video process!
+2023-07-24 01:38:37.977 | INFO     | __main__:audio_thread:126 - stop audio process!
+2023-07-24 01:38:38.133 | INFO     | audio:close:151 - closed audio writer
+2023-07-24 01:38:38.159 | INFO     | __main__:audio_thread:136 - audio process terminated!
+2023-07-24 01:38:38.161 | INFO     | __main__:keyboard_on_press:58 - start combining audio and video
+2023-07-24 01:38:38.161 | INFO     | video:__init__:79 - created video writer
+2023-07-24 01:40:08.730 | INFO     | audio:__init__:144 - created audio writer
+2023-07-24 01:40:08.731 | INFO     | video:__init__:79 - created video writer
+2023-07-24 01:40:14.191 | INFO     | __main__:keyboard_on_press:49 - record is stopped
+2023-07-24 01:40:14.194 | INFO     | __main__:video_thread:99 - stop video process!
+2023-07-24 01:40:14.205 | INFO     | __main__:audio_thread:130 - stop audio process!
+2023-07-24 01:40:14.361 | INFO     | audio:close:151 - closed audio writer
+2023-07-24 01:40:14.389 | INFO     | __main__:audio_thread:140 - audio process terminated!
+2023-07-24 01:40:14.405 | INFO     | __main__:keyboard_on_press:58 - start combining audio and video
+2023-07-24 01:40:14.405 | INFO     | video:__init__:79 - created video writer
+2023-07-24 01:44:01.255 | INFO     | audio:__init__:144 - created audio writer
+2023-07-24 01:44:01.256 | INFO     | video:__init__:79 - created video writer
+2023-07-24 01:44:05.975 | INFO     | __main__:keyboard_on_press:53 - record is stopped
+2023-07-24 01:44:05.975 | INFO     | __main__:video_thread:100 - stop video process!
+2023-07-24 01:44:06.101 | INFO     | __main__:audio_thread:131 - stop audio process!
+2023-07-24 01:44:06.257 | INFO     | audio:close:151 - closed audio writer
+2023-07-24 01:44:06.292 | INFO     | __main__:audio_thread:141 - audio process terminated!
+2023-07-24 01:44:06.300 | INFO     | __main__:keyboard_on_press:62 - start combining audio and video
+2023-07-24 01:44:06.300 | INFO     | video:__init__:79 - created video writer
+2023-07-24 11:38:04.317 | INFO     | audio:__init__:144 - created audio writer
+2023-07-24 11:38:04.319 | INFO     | video:__init__:79 - created video writer
+2023-07-24 11:38:07.689 | INFO     | __main__:keyboard_on_press:53 - record is stopped
+2023-07-24 11:38:07.717 | INFO     | __main__:video_thread:100 - stop video process!
+2023-07-24 11:38:07.755 | INFO     | __main__:audio_thread:131 - stop audio process!
+2023-07-24 11:38:07.913 | INFO     | audio:close:151 - closed audio writer
+2023-07-24 11:38:07.936 | INFO     | __main__:audio_thread:141 - audio process terminated!
+2023-07-24 11:38:08.019 | INFO     | __main__:keyboard_on_press:62 - start combining audio and video
+2023-07-24 11:38:08.019 | INFO     | video:__init__:79 - created video writer
+2023-07-24 11:39:13.835 | INFO     | video:__init__:79 - created video writer
+2023-07-24 11:39:13.835 | INFO     | audio:__init__:144 - created audio writer
+2023-07-24 11:39:18.337 | INFO     | __main__:keyboard_on_press:57 - record is stopped
+2023-07-24 11:39:18.343 | INFO     | __main__:audio_thread:135 - stop audio process!
+2023-07-24 11:39:18.349 | INFO     | __main__:video_thread:104 - stop video process!
+2023-07-24 11:39:18.496 | INFO     | audio:close:151 - closed audio writer
+2023-07-24 11:39:18.527 | INFO     | __main__:audio_thread:145 - audio process terminated!
+2023-07-24 11:39:18.558 | INFO     | __main__:keyboard_on_press:66 - start combining audio and video
+2023-07-24 11:39:18.558 | INFO     | video:__init__:79 - created video writer
+2023-07-24 11:40:52.859 | INFO     | audio:__init__:144 - created audio writer
+2023-07-24 11:40:52.859 | INFO     | video:__init__:79 - created video writer
+2023-07-24 11:40:57.376 | INFO     | __main__:keyboard_on_press:55 - record is stopped
+2023-07-24 11:40:57.381 | INFO     | __main__:video_thread:102 - stop video process!
+2023-07-24 11:40:57.393 | INFO     | __main__:audio_thread:133 - stop audio process!
+2023-07-24 11:40:57.550 | INFO     | audio:close:151 - closed audio writer
+2023-07-24 11:40:57.583 | INFO     | __main__:audio_thread:143 - audio process terminated!
+2023-07-24 11:40:57.595 | INFO     | __main__:keyboard_on_press:64 - start combining audio and video
+2023-07-24 11:40:57.595 | INFO     | video:__init__:79 - created video writer
+2023-07-24 11:42:19.938 | INFO     | video:__init__:79 - created video writer
+2023-07-24 11:42:19.939 | INFO     | audio:__init__:144 - created audio writer
+2023-07-24 11:42:23.801 | INFO     | __main__:keyboard_on_press:54 - record is stopped
+2023-07-24 11:42:23.813 | INFO     | __main__:video_thread:106 - stop video process!
+2023-07-24 11:42:23.911 | INFO     | __main__:audio_thread:137 - stop audio process!
+2023-07-24 11:42:24.070 | INFO     | audio:close:151 - closed audio writer
+2023-07-24 11:42:24.090 | INFO     | __main__:audio_thread:147 - audio process terminated!
+2023-07-24 11:42:24.130 | INFO     | __main__:keyboard_on_press:63 - start combining audio and video
+2023-07-24 11:42:24.130 | INFO     | video:__init__:79 - created video writer
+2023-07-24 11:42:45.443 | INFO     | audio:__init__:144 - created audio writer
+2023-07-24 11:42:45.443 | INFO     | video:__init__:79 - created video writer
+2023-07-24 11:43:15.593 | INFO     | __main__:keyboard_on_press:54 - record is stopped
+2023-07-24 11:43:15.594 | INFO     | __main__:audio_thread:137 - stop audio process!
+2023-07-24 11:43:15.610 | INFO     | audio:close:151 - closed audio writer
+2023-07-24 11:43:15.621 | INFO     | __main__:video_thread:106 - stop video process!
+2023-07-24 11:43:15.711 | INFO     | __main__:audio_thread:147 - audio process terminated!
+2023-07-24 11:43:15.811 | INFO     | __main__:keyboard_on_press:63 - start combining audio and video
+2023-07-24 11:43:15.811 | INFO     | video:__init__:79 - created video writer
+2023-07-24 11:44:09.077 | INFO     | video:__init__:79 - created video writer
+2023-07-24 11:44:09.077 | INFO     | audio:__init__:144 - created audio writer
+2023-07-24 11:44:21.489 | INFO     | __main__:keyboard_on_press:54 - record is stopped
+2023-07-24 11:44:21.497 | INFO     | __main__:audio_thread:138 - stop audio process!
+2023-07-24 11:44:21.513 | INFO     | audio:close:151 - closed audio writer
+2023-07-24 11:44:21.522 | INFO     | __main__:video_thread:107 - stop video process!
+2023-07-24 11:44:21.554 | INFO     | __main__:audio_thread:148 - audio process terminated!
+2023-07-24 11:44:21.592 | INFO     | __main__:keyboard_on_press:63 - start combining audio and video
+2023-07-24 11:44:21.592 | INFO     | video:__init__:79 - created video writer
+2023-07-24 11:45:37.624 | INFO     | audio:__init__:144 - created audio writer
+2023-07-24 11:45:37.624 | INFO     | video:__init__:79 - created video writer
+2023-07-24 11:47:21.081 | INFO     | __main__:keyboard_on_press:54 - record is stopped
+2023-07-24 11:47:21.082 | INFO     | __main__:video_thread:107 - stop video process!
+2023-07-24 11:47:21.096 | INFO     | __main__:audio_thread:138 - stop audio process!
+2023-07-24 11:47:21.111 | INFO     | audio:close:151 - closed audio writer
+2023-07-24 11:47:21.222 | INFO     | __main__:audio_thread:148 - audio process terminated!
+2023-07-24 11:47:21.297 | INFO     | __main__:keyboard_on_press:63 - start combining audio and video
+2023-07-24 11:47:21.297 | INFO     | video:__init__:79 - created video writer
+2023-07-24 11:50:59.069 | INFO     | audio:__init__:144 - created audio writer
+2023-07-24 11:50:59.069 | INFO     | video:__init__:79 - created video writer
+2023-07-24 11:52:38.817 | INFO     | __main__:keyboard_on_press:54 - record is stopped
+2023-07-24 11:52:38.828 | INFO     | __main__:audio_thread:136 - stop audio process!
+2023-07-24 11:52:38.835 | INFO     | __main__:video_thread:105 - stop video process!
+2023-07-24 11:52:38.844 | INFO     | audio:close:151 - closed audio writer
+2023-07-24 11:52:38.939 | INFO     | __main__:audio_thread:146 - audio process terminated!
+2023-07-24 11:52:39.029 | INFO     | __main__:keyboard_on_press:63 - start combining audio and video
+2023-07-24 11:52:39.029 | INFO     | video:__init__:79 - created video writer
+2023-07-24 11:55:43.820 | INFO     | audio:__init__:144 - created audio writer
+2023-07-24 11:55:43.820 | INFO     | video:__init__:78 - created video writer
+2023-07-24 11:56:05.570 | INFO     | __main__:keyboard_on_press:54 - record is stopped
+2023-07-24 11:56:05.571 | INFO     | __main__:audio_thread:136 - stop audio process!
+2023-07-24 11:56:05.585 | INFO     | __main__:video_thread:105 - stop video process!
+2023-07-24 11:56:05.590 | INFO     | audio:close:151 - closed audio writer
+2023-07-24 11:56:05.690 | INFO     | __main__:audio_thread:146 - audio process terminated!
+2023-07-24 11:56:05.791 | INFO     | __main__:keyboard_on_press:63 - start combining audio and video
+2023-07-24 11:56:05.791 | INFO     | video:__init__:78 - created video writer
+2023-07-24 11:56:47.162 | INFO     | audio:__init__:144 - created audio writer
+2023-07-24 11:56:47.163 | INFO     | video:__init__:78 - created video writer
+2023-07-24 11:57:09.121 | INFO     | __main__:keyboard_on_press:54 - record is stopped
+2023-07-24 11:57:09.124 | INFO     | __main__:audio_thread:137 - stop audio process!
+2023-07-24 11:57:09.140 | INFO     | audio:close:151 - closed audio writer
+2023-07-24 11:57:09.142 | INFO     | __main__:video_thread:106 - stop video process!
+2023-07-24 11:57:09.259 | INFO     | __main__:audio_thread:147 - audio process terminated!
+2023-07-24 11:57:09.340 | INFO     | __main__:keyboard_on_press:63 - start combining audio and video
+2023-07-24 11:57:09.340 | INFO     | video:__init__:78 - created video writer
+2023-07-24 11:58:04.137 | INFO     | audio:__init__:145 - created audio writer
+2023-07-24 11:58:04.137 | INFO     | video:__init__:78 - created video writer
+2023-07-24 11:58:55.626 | INFO     | __main__:keyboard_on_press:54 - record is stopped
+2023-07-24 11:58:55.630 | INFO     | __main__:video_thread:106 - stop video process!
+2023-07-24 11:58:55.640 | INFO     | __main__:audio_thread:137 - stop audio process!
+2023-07-24 11:58:55.641 | INFO     | audio:close:152 - closed audio writer
+2023-07-24 11:58:55.718 | INFO     | __main__:audio_thread:147 - audio process terminated!
+2023-07-24 11:58:55.734 | INFO     | __main__:keyboard_on_press:63 - start combining audio and video
+2023-07-24 11:58:55.734 | INFO     | video:__init__:78 - created video writer
+2023-07-24 12:00:47.244 | INFO     | audio:__init__:145 - created audio writer
+2023-07-24 12:00:47.244 | INFO     | video:__init__:78 - created video writer
+2023-07-24 12:00:54.777 | INFO     | __main__:keyboard_on_press:54 - record is stopped
+2023-07-24 12:00:54.778 | INFO     | __main__:audio_thread:137 - stop audio process!
+2023-07-24 12:00:54.783 | INFO     | __main__:video_thread:106 - stop video process!
+2023-07-24 12:00:54.938 | INFO     | audio:close:152 - closed audio writer
+2023-07-24 12:00:54.976 | INFO     | __main__:audio_thread:147 - audio process terminated!
+2023-07-24 12:00:54.997 | INFO     | __main__:keyboard_on_press:63 - start combining audio and video
+2023-07-24 12:00:54.997 | INFO     | video:__init__:78 - created video writer
+2023-07-24 12:01:11.912 | INFO     | video:__init__:78 - created video writer
+2023-07-24 12:01:11.912 | INFO     | audio:__init__:145 - created audio writer
+2023-07-24 12:04:56.080 | INFO     | video:__init__:78 - created video writer
+2023-07-24 12:04:56.080 | INFO     | audio:__init__:147 - created audio writer
+2023-07-24 12:04:57.516 | ERROR    | threading:run:953 - An error has been caught in function 'run', process 'MainProcess' (15608), thread 'Thread-2 (audio_thread)' (7664):
+Traceback (most recent call last):
+
+  File "C:\Users\Dimka\AppData\Local\Programs\Python\Python310\lib\threading.py", line 973, in _bootstrap
+    self._bootstrap_inner()
+    │    └ <function Thread._bootstrap_inner at 0x0000024DC198B010>
+    └ <Thread(Thread-2 (audio_thread), started 7664)>
+
+  File "C:\Users\Dimka\AppData\Local\Programs\Python\Python310\lib\threading.py", line 1016, in _bootstrap_inner
+    self.run()
+    │    └ <function Thread.run at 0x0000024DC198AD40>
+    └ <Thread(Thread-2 (audio_thread), started 7664)>
+
+> File "C:\Users\Dimka\AppData\Local\Programs\Python\Python310\lib\threading.py", line 953, in run
+    self._target(*self._args, **self._kwargs)
+    │    │        │    │        │    └ {}
+    │    │        │    │        └ <Thread(Thread-2 (audio_thread), started 7664)>
+    │    │        │    └ (<config.ProgramConfig object at 0x0000024DE3317D60>, <config.ProgramState object at 0x0000024DE3314E50>)
+    │    │        └ <Thread(Thread-2 (audio_thread), started 7664)>
+    │    └ <function audio_thread at 0x0000024DE3641120>
+    └ <Thread(Thread-2 (audio_thread), started 7664)>
+
+  File "D:\programing stuff\pycharm projects\screen recorder\main.py", line 152, in audio_thread
+    writer.addChunk(chunk)
+    │      │        └ array([0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0,
+    │      │                 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, ...
+    │      └ <function AudioWriter.addChunk at 0x0000024DE3640B80>
+    └ <audio.AudioWriter object at 0x0000024DE364A680>
+
+  File "D:\programing stuff\pycharm projects\screen recorder\audio.py", line 151, in addChunk
+    self.__writer.write(chunk_data)
+    │                   └ array([0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0,
+    │                            0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, ...
+    └ <audio.AudioWriter object at 0x0000024DE364A680>
+
+  File "C:\Users\Dimka\.virtualenvs\screen_recorder-HaP_R6z5\lib\site-packages\soundfile.py", line 1020, in write
+    written = self._array_io('write', data, len(data))
+              │    │                  │         └ array([0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0,
+              │    │                  │                  0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, ...
+              │    │                  └ array([0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0,
+              │    │                           0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, ...
+              │    └ <function SoundFile._array_io at 0x0000024DE35CBAC0>
+              └ SoundFile('D:\\programing stuff\\pycharm projects\\screen recorder\\audio.wav', mode='w', samplerate=48000, channels=2, forma...
+
+  File "C:\Users\Dimka\.virtualenvs\screen_recorder-HaP_R6z5\lib\site-packages\soundfile.py", line 1338, in _array_io
+    raise ValueError("Invalid shape: {0!r}".format(array.shape))
+                                                   │     └ <attribute 'shape' of 'numpy.ndarray' objects>
+                                                   └ array([0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0,
+                                                            0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, ...
+
+ValueError: Invalid shape: (480,)
+2023-07-24 12:05:41.820 | INFO     | audio:__init__:146 - created audio writer
+2023-07-24 12:05:41.821 | INFO     | video:__init__:78 - created video writer
+2023-07-24 12:05:53.146 | INFO     | video:__init__:78 - created video writer
+2023-07-24 12:05:53.146 | INFO     | audio:__init__:147 - created audio writer
+2023-07-24 12:07:08.284 | INFO     | video:__init__:78 - created video writer
+2023-07-24 12:07:08.284 | INFO     | audio:__init__:147 - created audio writer
+2023-07-24 12:07:59.346 | INFO     | __main__:keyboard_on_press:54 - record is stopped
+2023-07-24 12:07:59.348 | INFO     | __main__:audio_thread:137 - stop audio process!
+2023-07-24 12:07:59.350 | INFO     | __main__:video_thread:106 - stop video process!
+2023-07-24 12:07:59.364 | INFO     | audio:close:154 - closed audio writer
+2023-07-24 12:07:59.466 | INFO     | __main__:audio_thread:147 - audio process terminated!
+2023-07-24 12:07:59.563 | INFO     | __main__:keyboard_on_press:63 - start combining audio and video
+2023-07-24 12:07:59.564 | INFO     | video:__init__:78 - created video writer
+2023-07-24 12:10:12.375 | INFO     | video:__init__:78 - created video writer
+2023-07-24 12:10:12.375 | INFO     | audio:__init__:148 - created audio writer
+2023-07-24 12:10:57.656 | INFO     | video:__init__:78 - created video writer
+2023-07-24 12:10:57.656 | INFO     | audio:__init__:144 - created audio writer
+2023-07-24 12:13:24.938 | INFO     | __main__:keyboard_on_press:54 - record is stopped
+2023-07-24 12:13:24.939 | INFO     | __main__:audio_thread:137 - stop audio process!
+2023-07-24 12:13:24.953 | INFO     | __main__:video_thread:106 - stop video process!
+2023-07-24 12:13:24.955 | INFO     | audio:close:151 - closed audio writer
+2023-07-24 12:13:24.993 | INFO     | __main__:audio_thread:147 - audio process terminated!
+2023-07-24 12:13:25.046 | INFO     | __main__:keyboard_on_press:63 - start combining audio and video
+2023-07-24 12:13:25.046 | INFO     | video:__init__:78 - created video writer
+2023-07-24 12:26:11.027 | INFO     | video:__init__:78 - created video writer
+2023-07-24 12:26:11.027 | INFO     | audio:__init__:144 - created audio writer
+2023-07-24 12:26:55.666 | INFO     | __main__:keyboard_on_press:54 - record is stopped
+2023-07-24 12:26:55.682 | INFO     | __main__:video_thread:105 - stop video process!
+2023-07-24 12:26:55.729 | INFO     | __main__:audio_thread:136 - stop audio process!
+2023-07-24 12:26:55.888 | INFO     | audio:close:151 - closed audio writer
+2023-07-24 12:26:55.911 | INFO     | __main__:audio_thread:146 - audio process terminated!
+2023-07-24 12:26:55.995 | INFO     | __main__:keyboard_on_press:63 - start combining audio and video
+2023-07-24 12:26:55.995 | INFO     | video:__init__:78 - created video writer
+2023-07-24 14:25:22.309 | INFO     | video:__init__:78 - created video writer
+2023-07-24 14:25:22.309 | INFO     | audio:__init__:145 - created audio writer
+2023-07-24 14:26:18.093 | INFO     | __main__:keyboard_on_press:54 - record is stopped
+2023-07-24 14:26:18.116 | INFO     | __main__:video_thread:105 - stop video process!
+2023-07-24 14:26:18.187 | INFO     | __main__:audio_thread:136 - stop audio process!
+2023-07-24 14:26:18.344 | INFO     | audio:close:152 - closed audio writer
+2023-07-24 14:26:18.410 | INFO     | __main__:audio_thread:146 - audio process terminated!
+2023-07-24 14:26:18.420 | INFO     | __main__:keyboard_on_press:63 - start combining audio and video
+2023-07-24 14:26:18.420 | INFO     | video:__init__:78 - created video writer
+2023-07-24 14:30:28.670 | INFO     | audio:__init__:145 - created audio writer
+2023-07-24 14:30:28.670 | INFO     | video:__init__:78 - created video writer
+2023-07-24 14:32:48.964 | INFO     | __main__:keyboard_on_press:54 - record is stopped
+2023-07-24 14:32:48.969 | INFO     | __main__:video_thread:106 - stop video process!
+2023-07-24 14:32:48.972 | INFO     | __main__:audio_thread:137 - stop audio process!
+2023-07-24 14:32:48.979 | INFO     | audio:close:152 - closed audio writer
+2023-07-24 14:32:49.041 | INFO     | __main__:audio_thread:147 - audio process terminated!
+2023-07-24 14:32:49.081 | INFO     | __main__:keyboard_on_press:63 - start combining audio and video
+2023-07-24 14:32:49.081 | INFO     | video:__init__:78 - created video writer
+2023-07-24 16:50:08.949 | INFO     | video:__init__:78 - created video writer
+2023-07-24 16:50:08.949 | INFO     | audio:__init__:144 - created audio writer
+2023-07-24 16:51:09.425 | INFO     | __main__:keyboard_on_press:55 - record is stopped
+2023-07-24 16:51:09.448 | INFO     | __main__:video_thread:107 - stop video process!
+2023-07-24 16:51:09.542 | INFO     | __main__:audio_thread:138 - stop audio process!
+2023-07-24 16:51:09.700 | INFO     | audio:close:151 - closed audio writer
+2023-07-24 16:51:09.770 | INFO     | __main__:audio_thread:148 - audio process terminated!
+2023-07-24 16:51:09.868 | INFO     | __main__:keyboard_on_press:64 - start combining audio and video
+2023-07-24 16:51:09.868 | INFO     | video:__init__:78 - created video writer
+2023-07-24 16:53:43.982 | INFO     | video:__init__:78 - created video writer
+2023-07-24 16:53:43.982 | INFO     | audio:__init__:147 - created audio writer
+2023-07-24 16:54:36.481 | INFO     | __main__:keyboard_on_press:55 - record is stopped
+2023-07-24 16:54:36.483 | INFO     | __main__:video_thread:107 - stop video process!
+2023-07-24 16:54:36.491 | INFO     | __main__:audio_thread:138 - stop audio process!
+2023-07-24 16:54:36.506 | INFO     | audio:close:154 - closed audio writer
+2023-07-24 16:54:36.613 | INFO     | __main__:audio_thread:148 - audio process terminated!
+2023-07-24 16:54:36.693 | INFO     | __main__:keyboard_on_press:64 - start combining audio and video
+2023-07-24 16:54:36.693 | INFO     | video:__init__:78 - created video writer
+2023-07-24 16:55:55.058 | INFO     | audio:__init__:147 - created audio writer
+2023-07-24 16:55:55.058 | INFO     | video:__init__:78 - created video writer
+2023-07-24 16:56:14.953 | INFO     | __main__:keyboard_on_press:55 - record is stopped
+2023-07-24 16:56:14.959 | INFO     | __main__:audio_thread:138 - stop audio process!
+2023-07-24 16:56:14.971 | INFO     | __main__:video_thread:107 - stop video process!
+2023-07-24 16:56:14.977 | INFO     | audio:close:154 - closed audio writer
+2023-07-24 16:56:15.101 | INFO     | __main__:audio_thread:148 - audio process terminated!
+2023-07-24 16:56:15.179 | INFO     | __main__:keyboard_on_press:64 - start combining audio and video
+2023-07-24 16:56:15.179 | INFO     | video:__init__:78 - created video writer
+2023-07-24 16:57:10.973 | INFO     | audio:__init__:144 - created audio writer
+2023-07-24 16:57:10.973 | INFO     | video:__init__:78 - created video writer
+2023-07-24 16:57:18.417 | INFO     | __main__:keyboard_on_press:55 - record is stopped
+2023-07-24 16:57:18.433 | INFO     | __main__:video_thread:107 - stop video process!
+2023-07-24 16:57:18.480 | INFO     | __main__:audio_thread:138 - stop audio process!
+2023-07-24 16:57:18.634 | INFO     | audio:close:151 - closed audio writer
+2023-07-24 16:57:18.660 | INFO     | __main__:audio_thread:148 - audio process terminated!
+2023-07-24 16:57:18.742 | INFO     | __main__:keyboard_on_press:64 - start combining audio and video
+2023-07-24 16:57:18.742 | INFO     | video:__init__:78 - created video writer
+2023-07-24 16:57:41.370 | INFO     | audio:__init__:144 - created audio writer
+2023-07-24 16:57:41.370 | INFO     | video:__init__:78 - created video writer
+2023-07-24 16:58:14.249 | INFO     | __main__:keyboard_on_press:55 - record is stopped
+2023-07-24 16:58:14.282 | INFO     | __main__:video_thread:107 - stop video process!
+2023-07-24 16:58:14.325 | INFO     | __main__:audio_thread:138 - stop audio process!
+2023-07-24 16:58:14.484 | INFO     | audio:close:151 - closed audio writer
+2023-07-24 16:58:14.506 | INFO     | __main__:audio_thread:148 - audio process terminated!
+2023-07-24 16:58:14.574 | INFO     | __main__:keyboard_on_press:64 - start combining audio and video
+2023-07-24 16:58:14.574 | INFO     | video:__init__:78 - created video writer
+2023-07-24 16:58:42.176 | INFO     | audio:__init__:147 - created audio writer
+2023-07-24 16:58:42.176 | INFO     | video:__init__:78 - created video writer
+2023-07-24 16:59:11.809 | INFO     | __main__:keyboard_on_press:55 - record is stopped
+2023-07-24 16:59:11.812 | INFO     | __main__:video_thread:107 - stop video process!
+2023-07-24 16:59:11.899 | INFO     | __main__:audio_thread:138 - stop audio process!
+2023-07-24 16:59:12.054 | INFO     | audio:close:154 - closed audio writer
+2023-07-24 16:59:12.095 | INFO     | __main__:audio_thread:148 - audio process terminated!
+2023-07-24 16:59:12.129 | INFO     | __main__:keyboard_on_press:64 - start combining audio and video
+2023-07-24 16:59:12.129 | INFO     | video:__init__:78 - created video writer
+2023-07-24 17:00:44.165 | INFO     | video:__init__:78 - created video writer
+2023-07-24 17:00:44.165 | INFO     | audio:__init__:148 - created audio writer
+2023-07-24 17:01:47.601 | INFO     | audio:__init__:148 - created audio writer
+2023-07-24 17:01:47.602 | INFO     | video:__init__:78 - created video writer
+2023-07-24 17:02:22.931 | INFO     | __main__:keyboard_on_press:55 - record is stopped
+2023-07-24 17:02:22.935 | INFO     | __main__:audio_thread:138 - stop audio process!
+2023-07-24 17:02:22.939 | INFO     | __main__:video_thread:107 - stop video process!
+2023-07-24 17:02:22.943 | INFO     | audio:close:155 - closed audio writer
+2023-07-24 17:02:23.000 | INFO     | __main__:audio_thread:148 - audio process terminated!
+2023-07-24 17:02:23.040 | INFO     | __main__:keyboard_on_press:64 - start combining audio and video
+2023-07-24 17:02:23.040 | INFO     | video:__init__:78 - created video writer
+2023-07-24 17:08:52.949 | INFO     | audio:__init__:145 - created audio writer
+2023-07-24 17:08:52.949 | INFO     | video:__init__:78 - created video writer
+2023-07-24 17:50:27.628 | INFO     | audio:__init__:145 - created audio writer
+2023-07-24 17:50:27.629 | INFO     | video:__init__:78 - created video writer
