@@ -98,10 +98,11 @@ def getAudio(output: Queue, SAMPLE_RATE: int, conn: Connection):
     process_microphone.start()
     logger.info("audio processes started!")
 
-    # parts of no used audio are stored here
-    tmp_speaker = np.array([])
-    tmp_microphone = np.array([])
+    # parts of no used audio in previous runs are stored here
+    spare_audio_speaker_data = np.array([])
+    spare_audio_microphone_data = np.array([])
     while True:
+        # if there is message to terminate this audio process - terminate child processes
         if conn.poll():
             logger.info("stop audio processes!")
             conn.recv()
@@ -114,11 +115,13 @@ def getAudio(output: Queue, SAMPLE_RATE: int, conn: Connection):
         microphone_audio = None
         speaker_audio = None
 
-        if not speaker_queue._closed and len(tmp_speaker) == 0:
+        # get speaker and microphone audio
+        if not speaker_queue._closed and len(spare_audio_speaker_data) == 0:
             speaker_audio = speaker_queue.get()
-        if not microphone_queue._closed and len(tmp_microphone) == 0:
+        if not microphone_queue._closed and len(spare_audio_microphone_data) == 0:
             microphone_audio = microphone_queue.get()
 
+        # if there is no microphone - shut down the process with queue object
         if isinstance(microphone_audio, NoMicrophoneException):
             process_microphone.terminate()
             microphone_queue.close()
@@ -129,20 +132,22 @@ def getAudio(output: Queue, SAMPLE_RATE: int, conn: Connection):
                 output.put(speaker_audio)
             continue
 
+        # this can't be
         if speaker_audio is None and microphone_audio is None:
             logger.warning("speaker and microphone audio don't return values!")
             continue
 
         if not microphone_queue._closed:
             # that's mean that from previous iteration we have chunks from microphone or speaker that weren't used
-            if len(tmp_microphone) != 0 or len(tmp_speaker) != 0 or len(microphone_audio) != len(speaker_audio):
-                full_audio, tmp_speaker, tmp_microphone = slice_audio(speaker_audio, microphone_audio, tmp_speaker,
-                                                                      tmp_microphone)
+            if len(spare_audio_microphone_data) != 0 or len(spare_audio_speaker_data) != 0 or len(microphone_audio) != len(speaker_audio):
+                full_audio, spare_audio_speaker_data, spare_audio_microphone_data = slice_audio(speaker_audio, microphone_audio, spare_audio_speaker_data,
+                                                                      spare_audio_microphone_data)
             else:
                 full_audio = microphone_audio + speaker_audio
         else:
             full_audio = speaker_audio
 
+        # this can't be
         if full_audio is None:
             logger.error("full audio doesn't exist!")
             raise RuntimeError("full audio doesn't exist!")
