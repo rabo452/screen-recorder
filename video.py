@@ -58,12 +58,14 @@ def getScreen(output: Queue):
     top_y = win32api.GetSystemMetrics(win32con.SM_YVIRTUALSCREEN)
     width, height = getWindowsSize()
 
-    prev_sec = time.time()
+    # start time of the current second
+    current_sec_start_time = time.time()
     current_fps = 0
     while True:
-        if time.time() - prev_sec >= 1:
+        # if there is passed more than 1 second - send information into queue
+        if time.time() - current_sec_start_time >= 1:
             output.put(current_fps)
-            prev_sec = time.time()
+            current_sec_start_time = time.time()
             current_fps = 0
 
         img = getImageObject(desktop_dc, left_x, top_y, width, height)

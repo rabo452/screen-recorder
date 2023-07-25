@@ -90,8 +90,10 @@ def keyboard_on_press(key, config: ProgramConfig, state_dict: ProgramState, star
 @logger.catch
 def video_thread(config: ProgramConfig, state_dict: ProgramState):
     def addFrame(frame, writer):
+        # if process returned int - it means that this is fps for last second
         if type(frame) == int:
-            state_dict.video_fps_collection.append(frame)
+            fps = frame
+            state_dict.video_fps_collection.append(fps)
             return
         writer.addFrame(frame)
 
@@ -109,6 +111,7 @@ def video_thread(config: ProgramConfig, state_dict: ProgramState):
             video_process.terminate()
             writer.closeWriter()
 
+            # add the remaining frames into video
             while not video_queue.empty():
                 frame = video_queue.get()  # return cv2 frame or intenger as fps for fps collection
                 addFrame(frame, writer)
@@ -140,6 +143,7 @@ def audio_thread(config: ProgramConfig, state_dict: ProgramState):
             con_thread.recv()
             audio_process.terminate()
 
+            # add remaining sounds into the audio file
             while not audio_queue.empty():
                 chunk = audio_queue.get()
                 writer.addChunk(chunk)
