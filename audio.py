@@ -54,9 +54,17 @@ def slice_audio(speaker_audio: ndarray, microphone_audio: ndarray, speaker_tmp: 
 def record_speaker(output: Queue, SAMPLE_RATE):
     with sc.get_microphone(id=str(sc.default_speaker().name), include_loopback=True).recorder(
             samplerate=SAMPLE_RATE) as mic:
+        null_audio_timestamp = None
         while True:
             audio: ndarray = mic.record(numframes=None)
-            print(time.time())
+            if len(audio) == 0 and not null_audio_timestamp:
+                null_audio_timestamp = time.time()
+                continue
+            if len(audio) != 0 and null_audio_timestamp is not None:
+                digital_audio_count = int(SAMPLE_RATE * (time.time() - null_audio_timestamp))
+                digital_audio = np.array([[0, 0] for _ in range(digital_audio_count)])
+                output.put(digital_audio)
+                null_audio_timestamp = None
             output.put(audio)
 
 

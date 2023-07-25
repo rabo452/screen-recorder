@@ -1,4 +1,4 @@
-<<<<<<< HEAD
+
 import os
 import time
 from multiprocessing import Process, Queue, Pipe
