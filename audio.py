@@ -51,20 +51,24 @@ def slice_audio(speaker_audio: ndarray, microphone_audio: ndarray, speaker_tmp: 
     return full_audio, speaker_tmp, microphone_tmp
 
 
-def record_speaker(output: Queue, SAMPLE_RATE):
+def record_speaker(output: Queue, SAMPLE_RATE: int):
     with sc.get_microphone(id=str(sc.default_speaker().name), include_loopback=True).recorder(
             samplerate=SAMPLE_RATE) as mic:
-        null_audio_timestamp = None
+        null_audio_timestamp = None  # variable store information about when started program receive the empty sounds
         while True:
             audio: ndarray = mic.record(numframes=None)
             if len(audio) == 0 and not null_audio_timestamp:
-                null_audio_timestamp = time.time()
+                null_audio_timestamp = time.time()  # there is no audio, save timestamp and continue to listen
                 continue
+
+            # if previous times there were empty sounds,
+            # then it should add empty sounds directly into file by calculating them
             if len(audio) != 0 and null_audio_timestamp is not None:
                 digital_audio_count = int(SAMPLE_RATE * (time.time() - null_audio_timestamp))
                 digital_audio = np.array([[0, 0] for _ in range(digital_audio_count)])
                 output.put(digital_audio)
                 null_audio_timestamp = None
+
             output.put(audio)
 
 
